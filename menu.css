@@ -1,0 +1,206 @@
+body{
+    /* Syntax: background: linear-gradient(direction, color1, color2); */
+    background: linear-gradient(to bottom, #B23501, #C94D01, #DB6801, #E38301, #EF9F01);
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+@font-face {
+    font-family: 'Michegar'; /* Name of the font */
+    src: url(michegar/Michegar.ttf) format('truetype'), /* URL to the font file */
+}
+@font-face {
+    font-family: 'Nicotine Stains';
+    src: url(nicotine_stains/Nicotine\ Stains.ttf) format('truetype');
+}
+.circle{
+    opacity: 0.1;
+    width: 100%;
+    height: 89%;
+    position: fixed;
+}
+.border{
+    table-layout: fixed;
+    background-color: #EF9F01;
+}
+a {
+    color:white;
+    }
+    
+    .fixed-menu{
+    position: fixed;
+    background-color: #EFA000;
+    width:90%;
+    left:0;
+    top:0;
+    height: 50px;
+    margin: 50px;
+    border-radius: 25px;
+    display: inline-block;
+    z-index: 1;
+    }
+    
+.right{
+    float: right;
+    display: inline;
+    margin-top: 0.8em;
+}
+img.tahu{
+    width: 48px;
+    float: left;
+    margin-bottom: 40%;
+    margin-left: 0.7%;
+}
+.gurih{
+    width: 300px;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    font-family: 'Michegar', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.home{
+    color: black;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+.homeA{
+    color: #000000;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+.homeB{
+    color: #004AAD;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+.homeC{
+    color: #1bf638;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+.homeD{
+    color: #1affd1;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+.content {
+    margin-top: 150px;
+    text-align: center;
+}
+.orange{
+    color: #EFA000; /* Text color */
+    text-shadow: 0 0 10px #EFA000;
+    padding: 0 10px;
+    font-size: 800%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-right: 40px;
+    margin-left: 3.5em;
+    font-family: 'Nicotine Stains';
+  }
+  .white{
+    color: white; /* Text color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 5px; /* Adjust padding as needed */
+    font-size: 800%;
+    padding-right: 40px;
+    margin-left: 3.5em;
+    font-family: 'Nicotine Stains';
+  }
+img.menu{
+    margin-left: -3px;
+    margin-top: -75px;
+    width: 1345px;
+}
+.food1{
+    color:#4C1A0A;
+    font-family: 'Poppins';
+    font-size: 40px;
+    margin-bottom: 700px;
+}
+.buy-now {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8FA923;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+}
+
+.buy-now2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8FA923;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-family: 'Poppins';
+}
+
+.buy-now:hover {
+    background-color: #8FA923;
+}
+.food-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-80%, -70%);
+    text-align: center;
+    color: #4C1A0A;
+    font-family: 'Poppins';
+}
+.food-text2 {
+    margin: 170px 0;
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    transform: translate(-20%, -50%);
+    text-align: center;
+    color: #4C1A0A;
+    white-space: nowrap; /* Prevent line breaks */
+    font-family: 'Poppins';
+}
+.food-container {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.food-image {
+    width: 100%;
+    height: auto;
+}

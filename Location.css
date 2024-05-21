@@ -1,0 +1,107 @@
+body{
+    /* Syntax: background: linear-gradient(direction, color1, color2); */
+    background: linear-gradient(to bottom, #B23501, #C94D01, #DB6801, #E38301, #EF9F01);
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+@font-face {
+    font-family: 'Michegar'; /* Name of the font */
+    src: url(michegar/Michegar.ttf) format('truetype'), /* URL to the font file */
+}
+@font-face {
+    font-family: 'Nicotine Stains';
+    src: url(nicotine_stains/Nicotine\ Stains.ttf) format('truetype');
+}
+.circle{
+    opacity: 0.1;
+    width: 100%;
+    position: fixed;
+}
+.call{
+    width: 1480px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.border{
+    table-layout: fixed;
+    background-color: #EF9F01;
+}
+a {
+    color:white;
+    }
+    
+    .fixed-menu{
+    position: fixed;
+    background-color: #EFA000;
+    width:90%;
+    left:0;
+    top:0;
+    height: 50px;
+    margin: 50px;
+    border-radius: 25px;
+    display: inline-block;
+    z-index: 1;
+    }
+    
+.right{
+    float: right;
+    display: inline;
+    margin-top: 0.8em;
+}
+img.tahu{
+    width: 48px;
+    float: left;
+    margin-bottom: 40%;
+    margin-left: 0.7%;
+}
+.gurih{
+    width: 300px;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    font-family: 'Michegar', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.homeA{
+    color: black;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+.homeB{
+    color: #004AAD;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+.homeC{
+    color: #1bf638;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+.homeD{
+    color: #1affd1;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}

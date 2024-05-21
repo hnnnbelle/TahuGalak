@@ -1,0 +1,174 @@
+body{
+    /* Syntax: background: linear-gradient(direction, color1, color2); */
+    background: linear-gradient(to bottom, #B23501, #C94D01, #DB6801, #E38301, #EF9F01);
+    height: 100vh; /* Full height of the viewport */
+    margin: 0; /* Remove default margin */
+}
+@font-face {
+    font-family: 'Michegar'; /* Name of the font */
+    src: url(michegar/Michegar.ttf) format('truetype'), /* URL to the font file */
+}
+@font-face {
+    font-family: 'Nicotine Stains';
+    src: url(nicotine_stains/Nicotine\ Stains.ttf) format('truetype');
+}
+.circle{
+    opacity: 0.1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.border{
+    table-layout: fixed;
+    background-color: #EF9F01;
+}
+a {
+    color:white;
+    }
+    
+    .fixed-menu{
+    position: fixed;
+    background-color: #EFA000;
+    width:90%;
+    left:0;
+    top:0;
+    height: 50px;
+    margin: 50px;
+    border-radius: 25px;
+    display: inline-block;
+    z-index: 1;
+    }
+    
+.right{
+    float: right;
+    display: inline;
+    margin-top: 0.8em;
+}
+img.tahu{
+    width: 48px;
+    float: left;
+    margin-bottom: 40%;
+    margin-left: 0.7%;
+}
+.gurih{
+    width: 300px;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 0.5em;
+    font-family: 'Michegar', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.homeA{
+    color: black;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+.homeB{
+    color: #004AAD;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+.homeC{
+    color: #1bf638;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+.homeD{
+    color: #1affd1;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 18px;
+    margin-right: 1em;
+    font-weight: bold; /* Make text bold */
+    padding: 0 8px; /* Add horizontal padding */
+    text-decoration: none; /* Optional: removes underline from links */
+}
+  .orange{
+    color: #EFA000; /* Text color */
+    text-shadow: 0 0 10px #EFA000;
+    padding: 0 10px;
+    font-size: 1000%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-right: 40px;
+    margin-left: 0.3em;
+    font-family: 'Nicotine Stains';
+  }
+  .white{
+    color: white; /* Text color */
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 0 5px; /* Adjust padding as needed */
+    font-size: 1000%;
+    padding-right: 40px;
+    margin-left: 0.3em;
+    font-family: 'Nicotine Stains';
+  }
+
+  @keyframes fade {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+  
+  .orange, .white {
+    animation: fade 5s infinite;
+  }
+
+  .intro{
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    margin: 0 25px;
+    font-family: 'Poppins';
+    color: white;
+    font-size: 25px;
+  }
+img.tahu4{
+    width: 1000px;
+    margin-left: 30%;
+    margin-top: 185px;
+    flex: 1;
+    align-self: flex-start;
+}
+
+.order-button {
+    display: inline-block;
+    border: 7px dashed white;
+    font-family: "Poppins";
+    font-weight: 500;
+    background-color: #E38301;
+    color: #B23501;
+    text-shadow: 2px 2px 0px #ffffff, -1px -2px 0px #ffffff, 2px -2px 0px #ffffff, -1px 2px 0px #ffffff;
+    padding: 4px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 30px;
+    position: absolute; /* Position the button absolutely */
+    bottom: 60px; /* Adjust the distance from the bottom of the container */
+    left: 20%; /* Center the button horizontally */
+    transform: translateX(-50%); /* Adjust to center the button */
+}
+
+.order-button:hover {
+    background-color: #C94D01;
+}
